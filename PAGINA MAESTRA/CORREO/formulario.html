@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Plasticos La Lunita</title>
+    <link rel="shortcut icon" href="img/loguito34.png" type="image/x-icon">
+    <link rel="stylesheet" href="css-2/font.css">
+    <link rel="stylesheet" href="css-2/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
+
+    <title>Contactanos</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/jumbotron.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+ <header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="acerca.html">Acerca de</a>
+            <a href="portafolio.html">Portafolio</a>
+            <a href="blog.html">Blog</a>
+            <a href="CORREO/formulario.html">Contacto</a>
+        </nav>
+        
+        </header>
+
+  <div class="container">
+   <h1 class="formuh1">Contacto rápido.</h1>
+   <!--la propiedad enctype permite el envío de archivos adjuntos en el formulario. -->    
+    <form id="form1" class="well col-lg-12" action="enviar.php" method="post" name="form1" enctype="multipart/form-data">
+      <div class="row">
+       <div class="col-lg-6">
+        <label>Nombre*</label> <input id="Nombre" class="form-control" type="text" name="Nombre" /> 
+        <label>Email*</label> <input id="Email" class="form-control" type="email" name="Email" />
+       </div>
+        <div class="col-lg-6"><label>Mensaje*</label> 
+         <textarea id="Mensaje" class="form-control" name="Mensaje" rows="4"></textarea>
+        </div>
+         <div class="col-lg-12">
+    <label for="exampleInputFile">Adjuntar archivo</label>
+    <input type="file" name="adjunto" id="archivo-adjunto">
+    <p class="help-block">Example block-level help text here.</p>
+  </div>
+        <button class="btn btn-default pull-right" type="submit">Enviar</button>
+      </div>
+    </form>
+  </div>
+  
+    <!-- javascript para confirmar datos del formulario.
+    ================================================== -->
+    <!-- La página carga más rapido si estan situados al final del documento. -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>+
+
+         <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+
+<img src="img/RESEÑA2.png" alt="">
+
+</footer>
+
+  </body>
+</html>
